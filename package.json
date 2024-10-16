@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.0",
     "swagger-ui": "^5.17.14",
     "swagger-ui-express": "^5.0.1",
