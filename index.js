@@ -6,6 +6,9 @@ const swaggerUi = require('swagger-ui-express')
 const yamljs = require('yamljs')
 const swaggerDocument = yamljs.load('./docs/swagger.yaml');
 
+
+
+
 app.use(cors())
 app.use(express.json())
 
@@ -16,6 +19,7 @@ const games =[
     {id:4, name: "Payday 2", price: 29.99},
     {id:5, name: "Gta", price: 29.99},
 ]
+
 
 app.get('/games', (req, res) => {res.send(games)})
 
